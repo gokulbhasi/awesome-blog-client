@@ -1,0 +1,24 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// Color system
+$colorPrimary: #ff748d;
+$colorBody: #909090;
+$colorWhite: #070606;
+$colorHeading:#5d676e;
+$colorDanger: #ff5555;
+
+// background color
+$bgPrimary: #ff748d;
+$bgBodyColor: #212121;
+$bgInput: #f9f9f9;
+$bgWhite: #fff;
+
+// font family
+$fontFamily: "Muli", sans-serif;
+
+// buttons
+// button hollow
+$btnOutline: $colorBody;

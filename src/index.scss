@@ -1,0 +1,201 @@
+@import "./assets/scss/variables";
+
+div , *{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  margin-top: 63px;
+}
+.loader{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 9991;
+  background-color: rgba(0,0,0,.5);
+}
+.roundedCard {
+  margin: 40px;
+}
+
+.feedContents {
+  padding-top: 80px;
+}
+
+.btnPrimary {
+  margin: 20px;
+}
+.linkNoDecoratoion {
+  text-decoration: none;
+}
+.height-300 {
+  height: 300px;
+}
+.postTitle {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.postDesc {
+  font-size: 12px;
+  font-weight: 100;
+  margin: 20px 0;
+}
+
+.postContainer {
+  padding: 100px 50px;
+  background-color: white;
+}
+
+.containerHome {
+  background-color: white;
+}
+
+.containerHome > .kanpom {
+  float: right;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+.postCommentSection {
+  margin: 20px 0;
+}
+
+.addCommentSection {
+  padding: 10px;
+  border: 1px solid #f0f0f0;
+  margin: 20px 0;
+}
+
+.addCommentTitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+ input, textarea {
+  border: 1px solid lightgray;
+  width: -webkit-fill-available;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  height: 30px;
+  border-radius: 3px;
+}
+.commentInput {
+  margin: 10px 0;
+}
+textarea {
+  height: 100px;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+::-webkit-input-placeholder {
+  text-align: left;
+  font-size: 11px;
+
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  text-align: left;
+  font-size: 11px;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  text-align: left;
+  font-size: 11px;  
+}
+
+:-ms-input-placeholder {  
+  text-align: left;
+  font-size: 11px; 
+}
+.commentSubmit {
+  padding: 6px 10px;
+  font-size: 10px;
+  color: white;
+  background-color: #191A36;
+  border: 1px solid #191A36;
+  border-radius: 4px;
+  width: min-content;
+}
+.userImage {
+  padding: 50px;
+  background-repeat: no-repeat;
+}
+.cmntBox > cmtBox {border-left: 1px solid lightgray;}
+
+.cmntDiff {
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.cmntProf {
+    display: inline-block;
+}
+
+.cmntBody {display: block;font-size: 12px;margin: 10px 0;}
+
+.cmntImage {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 15px;
+    background-size: contain;
+    display: inline-block;
+}
+
+.cmntName {
+    font-weight: 700;
+    font-size: 12px;
+    color: darkblue;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.cmntTime {
+    font-size: 8px;
+    color: gray;
+    height: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.cmntReply {
+    display: block;
+    font-size: 12px;
+    color: royalblue;
+}
+
+.profDesc {
+    display: inline-block;
+    height: 30px;
+}
+.cmntBox .cmntBox {
+  margin-left: 20px;
+  padding: 10px 0 0 10px;
+  border-left: 1px solid #f0f0f0;
+}
+.viewCommentSection > div > .cmntBox {
+  margin-top: 10px;
+}
+.cmntBox .cmntBox > .cmntDiff {
+  background-color: f2f6ff;
+}
+@media only screen and (max-width:479px){
+    .wrapper {
+      margin-top: 73px;
+    }
+}
